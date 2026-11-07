@@ -1,0 +1,1 @@
+# stdlib only — simulator talks HTTP to the VaxTrace API

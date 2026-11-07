@@ -1,0 +1,17 @@
+{
+  "name": "vaxtrace",
+  "private": true,
+  "description": "Blockchain-based vaccine distribution and tracking system (MSE907)",
+  "scripts": {
+    "postinstall": "node scripts/setup.mjs",
+    "setup": "node scripts/setup.mjs",
+    "start": "node scripts/start-demo.mjs",
+    "demo": "node scripts/start-demo.mjs",
+    "test": "npm --prefix blockchain test",
+    "evaluate": ".venv/bin/python evaluation/benchmark.py",
+    "iot": ".venv/bin/python iot-coldchain/simulator.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

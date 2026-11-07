@@ -2,7 +2,7 @@
 
 Local demo of a blockchain vaccine supply chain: each batch gets a digital identity, custody moves are signed on Ethereum, and patient details stay encrypted off-chain.
 
-The full click-by-click script is in [WORKING_GUIDE.md](WORKING_GUIDE.md).
+
 
 ## What you need
 
